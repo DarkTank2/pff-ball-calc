@@ -1,0 +1,12 @@
+applications:
+- name: 36er-Service-Tool 
+  host: csat-currentValues -<tenant-name>
+  buildpack: nodejs_buildpack
+  command: npm start
+  disk_quota: 256M
+  memory: 128M
+  env:
+    "CONFIG": '{
+      "system": "appsdev",
+      "configPrefix":"security"
+    }'
