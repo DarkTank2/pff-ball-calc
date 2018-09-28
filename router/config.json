@@ -1,0 +1,51 @@
+{
+  "configTitle": "Calculator",
+  "configPicture": "./img/logo36.png",
+  "food": 
+  [
+    {
+      "name": "Schweisbraten",
+      "picture": "./img/schweinsbraten.jpg",
+      "quantities":[
+        {
+          "quantity": "ganz",
+          "price": 8
+        },
+        {
+          "quantity": "halb",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "name": "brötchen",
+      "picture": "./img/sushi.jpg",
+      "quantities":[
+        {
+          "quantity": "eines",
+          "price": 2
+        }
+      ]
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Chardonnay",
+      "picture": "./img/chardonnay.png",
+      "quantities":[
+        {
+          "quantity": "1/8",
+          "price": 1.5
+        },
+        {
+          "quantity": "1/4",
+          "price": 3
+        },
+        {
+          "quantity": "Flasche",
+          "price": 12
+        }
+      ] 
+    }
+  ]
+}
